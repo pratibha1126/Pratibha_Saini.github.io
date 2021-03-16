@@ -1,0 +1,674 @@
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@469&family=Rambla&family=Staatliches&display=swap');
+
+		:root{
+		--color-black:#000000;
+		--color-white:#ffffff;
+		--color-border:#ffffff34;
+		--font-staat:'Staatliches', cursive;
+		--font-os:'Oswald', sans-serif;
+		--font-ram:'Rambla', sans-serif;
+		}
+		html,body{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+		}
+	
+
+		.bgimg{
+		background-image: url(../image/new-Generic_BG09_Dark.png); 
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 660px;
+		}
+
+
+		.font-staat{
+			font: normal 400 18px var(--font-staat);
+		}
+		.font-os{
+			font: normal 300 18px var(--font-os);
+		}
+		.font-ram{
+			font: normal bold 18px var(--font-ram);
+		}
+
+		.hearderset{
+			padding-top: 250px;
+			box-sizing: border-box;
+			color: white;
+		}
+		.fa-user-circle-o{
+			background: radial-gradient(circle at 30% 107%, #fdf497 0%, #8c408c 10%, #0591c7 45%, #87b6b8 60%, #285AEB 90%);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+		.hearderset h4{
+			color: #999999;
+		}
+
+		.hearderset h1{
+			font-size: 50px;
+			text-shadow: 2px 2px 60px #00cccc;
+			font-family: 'Oswald', sans-serif;
+			background: linear-gradient(to bottom, #ffffff, #ffffff, #e8f7ff , #add6ff );
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+		
+
+		.fa-user{
+			margin-top: 4px;
+		}
+	
+		.img-fluid{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 50px;
+
+		}
+
+		.paragraph{
+			font-family: arial, "Times New Roman";
+			font-size: 20px;
+			font-weight: 100;
+			text-align: left;
+			padding-bottom: 50px;
+			margin-bottom: 15px;  
+			padding-right: 100px;
+		}
+		.heading1{
+			padding: 50px 0px 10px;
+			height: 190px;
+		}
+		.icon{
+			background-color: #00cccc;
+			border-radius: 50%;
+			height: 63px;
+			width: 63px;
+		}
+		.fa-envelope{
+			margin-top: 12px;
+		}
+		.fa-book{
+			margin-top: 4px;
+		}
+		.row{
+			padding-top: 50px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-bottom: 40px;
+			margin-bottom: 15px;
+			width: 100%;
+		}
+		
+		.work h6{
+			color: blue;
+		}
+
+		/***************************************start skills****************************/
+/**
+		.span{
+			width: 500px;
+			margin: 50px auto 0;
+			padding: 20px;
+		}
+**/		.pool{
+			width: 500px;
+			margin: 50px auto 0;
+			padding: 20px;
+		}
+		.pool li{
+			position: relative;
+			list-style: name;
+			margin: 50px 0;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		.pool li:before{
+			content: '';
+			position: absolute;
+			top: calc(100% + 10px);
+			left: 0;
+			width: 100%;
+			height: 15px;
+			background-color: #66CCFF; 
+			border-radius: 1000px;
+		}
+		.pool li:after{
+			content: '';
+			position: absolute;
+			top: calc(100% + 10px);
+			left: 0;
+			width: 0;
+			height: 15px;
+			background-color: #3399FF;
+			border-radius: 1000px;
+			animation-duration: 15s;
+			animation-timing-function: ease;
+			animation-fill-mode: forwards;
+		}
+		li.Python:after{
+            animation-name: Python;
+		}
+		@keyframes Python{
+			to{
+				width: 85%;
+			}
+		}
+		li.C:after{
+            animation-name: C;
+		}
+		@keyframes C{
+			to{
+				width: 85%;
+			}
+		}
+		li.MySQL:after{
+            animation-name: MySQL;
+		}
+		@keyframes MySQL{
+			to{
+				width: 85%;
+			}
+		}
+		li.SEO:after{
+            animation-name: SEO;
+		}
+		@keyframes SEO{
+			to{
+				width: 90%;
+			}
+		}
+		li.SEM:after{
+            animation-name: SEM;
+		}
+		@keyframes SEM{
+			to{
+				width: 80%;
+			}
+		}
+		
+		li.HTML:after{
+            animation-name: HTML;
+		}
+		@keyframes HTML{
+			to{
+				width: 95%;
+			}
+		}
+		li.CSS:after{
+            animation-name: CSS;
+		}
+		@keyframes CSS{
+			to{
+				width: 92%;
+			}
+		}
+		li.JavaScript:after{
+            animation-name: JavaScript;
+		}
+		@keyframes JavaScript{
+			to{
+				width: 85%;
+			}
+		}
+		li.JQuery:after{
+            animation-name: JQuery;
+		}
+		@keyframes JQuery{
+			to{
+				width: 85%;
+			}
+		}
+		li.Bootstrap:after{
+            animation-name: Bootstrap;
+		}
+		@keyframes Bootstrap{
+			to{
+				width: 90%;
+			}
+		}
+		/*****************************************end skills**********************/
+
+		/*********************************start certification*********************/
+		.fa-certificate{
+			margin-top: 13px;
+		}
+		.wrapper{
+			position: relative;
+			width: 300px;
+			height: 250px;
+			transition: 1s;
+		}
+		.content1{
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: black;
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+		.overlay{
+			opacity: 0;
+			transition: .5s ease;
+		    background: black;
+		}
+		.wrapper:hover .overlay {
+			opacity: .5;
+
+		}
+		.wrapper:hover{
+			transform: scale(1.1);
+		}
+		/**************************************end certification********************/
+		
+
+		.fa-graduation-cap{
+			margin-top: 15px;
+		}
+		.education-content p{
+			color: blue;
+		}
+
+		/***************************************form start**/
+		form{
+			margin-top: 50px;
+		}
+		input{
+			height: 45px;
+		}
+		form .submit{
+			background-color: #00cccc;
+			border-color: transparent;
+			color: #fff;
+			font-size: 20px;
+			letter-spacing: 2px;
+			height: 50px;
+			margin-top: 20px;
+			transition: 0.4s ease;
+		}
+		form .submit:hover{
+			background-color: mediumseagreen;
+			cursor: pointer;
+		}
+		.box{
+			padding-bottom: 100px;
+		}
+		.fa-laptop{
+			margin-top: 15px;
+		}
+		/******************************************form end**/
+		
+		/******************************************start footer******/
+		.footer{
+			width: 100%;
+			height: 200px;
+			background: linear-gradient(to bottom, black, #0d0d0d, black);
+			display: block;
+		}
+		.inner-footer{
+			padding-top: 50px;
+		}
+		.footer-items a{
+			text-decoration: none;
+		}
+		.footer-items i{
+			height: 55px;
+			width: 55px;
+		}
+		.fa-quora{
+			color: #f00;
+		}
+		.fa-github{
+			color: white;
+		}
+		.fa-instagram{
+			background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+		.fa-linkedin{
+			color: #007785;
+		}
+		.fa-quora:hover{
+			transform: scale(1.1);
+		}
+		.fa-instagram:hover{
+			transform: scale(1.1);
+		}
+		.fa-github:hover{
+			transform: scale(1.1);
+		}
+		.fa-linkedin:hover{
+			transform: scale(1.1);
+		}
+	
+		.footer-bottom{
+			color: white;
+			padding-top: 40px;	
+			font-size: 16px;
+			font-weight: lighter;
+			text-transform: uppercase;
+		}
+
+	
+		/****************************************end footer****/
+
+		/***************************************start media*****/
+		@media(min-width: 992px){
+			.wrapper{
+				padding-left: 20px;
+			}
+
+
+		}
+
+		@media(min-width: 768px) and (max-width: 991px){
+			.hearderset h1{
+			font-size: 40px;
+			text-shadow: 2px 2px 60px #00cccc;
+			font-family: 'Oswald', sans-serif;
+			background: linear-gradient(to bottom, #ffffff, #ffffff, #e8f7ff , #add6ff );
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+			}
+			.hearderset h4{
+			color: #999999;
+			font-size: 20px;
+			}
+			.bgimg{
+				height: 600px;
+			}
+			.paragraph{
+			position: relative;
+			left: 10px;
+			font-family: arial, "Times New Roman";
+			font-size: 18px;
+			font-weight: 100px;
+			text-align: left;
+			padding-bottom: 50px;
+			margin-bottom: 15px;  
+			padding-right: 3px;
+			}
+			img{
+				width: 280px;
+				height: 330px;
+			}
+			.work h6{
+			color: blue;
+			font-size: 14px;
+			}
+			.work h5{
+				font-size: 17px;
+			}
+			.work p{
+				font-size: 14px;
+			}
+			.content1{
+			position: absolute;
+			top: 39%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: black;
+			text-transform: uppercase;
+			font-size: 20px;
+			}
+			.education-content{
+				position:relative;
+				text-align: left;
+				left: 10px;
+			}
+			.education-content p{
+			color: blue;
+			font-size: 14px;
+			}
+			.education-content h5{
+				font-size: 18px;
+			}
+			.wraper{
+				position: relative;
+				right: 20px;
+			}
+			.wrapper img{
+				width: 220px;
+				height: 220px;
+			}
+			.pool{
+			width: 350px;
+			margin: 50px auto 0;
+			padding: 20px;
+			}
+
+		}
+
+		@media(min-width: 575px) and (max-width: 767px){
+			.pool{
+			width: 300px;
+			margin: 50px auto 0;
+			padding: 20px;
+			}
+			.paragraph{
+			position: relative;
+			left: 10px;
+			font-family: arial, "Times New Roman";
+			font-size: 18px;
+			font-weight: 100px;
+			text-align: left;
+			padding-bottom: 50px;
+			margin-bottom: 15px;  
+			padding-right: 3px;
+			}
+			img{
+				padding-left: 25px;
+			}
+		}
+
+		@media(min-width: 480px) and (max-width: 574px){
+			.pool{
+			width: 350px;
+			margin: 50px auto 0;
+			padding: 20px;
+			}
+			.paragraph{
+				padding-left: 60px;
+			}
+
+		}
+
+		@media(max-width: 479px){
+			.bgimg{
+			background-image: url(../image/new-Generic_BG09_Dark.jpg); 
+			background-size: 100% 100%;
+			background-attachment: fixed;
+			width: 100%;
+			height: 560px;
+			}
+			.hearderset h1{
+			font-size: 35px;
+			text-shadow: 2px 2px 60px #00cccc;
+			font-family: 'Oswald', sans-serif;
+			background: linear-gradient(to bottom, #ffffff, #ffffff, #e8f7ff , #add6ff );
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+			}
+			.hearderset h4{
+			color: #999999;
+			font-size: 20PX;
+			}
+			.icon{
+			background-color: #00cccc;
+			border-radius: 50%;
+			height: 50px;
+			width: 50px;
+			}
+			.paragraph{
+			position: relative;
+			font-family: arial, "Times New Roman";
+			font-size: 17px;
+			font-weight: 100px;
+			
+			padding-bottom: 50px;
+			margin-bottom: 15px;  
+			padding-right: 3px;
+			}
+			img{
+				width: 230px;
+				height: 280px;
+			}
+			.work h6{
+			color: blue;
+			font-size: 13px;
+			}
+			.work h5{
+				font-size: 15px;
+			}
+			.work p{
+				font-size: 13px;
+			}
+			.content1{
+			position: absolute;
+			top: 35%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: black;
+			text-transform: uppercase;
+			font-size: 20px;
+			}
+			.education-content{
+				position: relative;
+				text-align: center;
+				left: 10px;
+			}
+			.education-content p{
+			color: blue;
+			font-size: 13px;
+			}
+			.education-content h5{
+				font-size: 18px;
+			}
+			.pool{
+			width: 200px;
+			margin: 20px auto 0;
+			padding: 10px;
+		}
+		.pool li{
+			position: relative;
+			list-style: name;
+			margin: 50px 0;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		.pool li:before{
+			content: '';
+			position: absolute;
+			top: calc(100% + 10px);
+			left: 0;
+			width: 100%;
+			height: 15px;
+			background-color: #66CCFF; 
+			border-radius: 500px;
+		}
+		.pool li:after{
+			content: '';
+			position: absolute;
+			top: calc(100% + 10px);
+			left: 0;
+			width: 0;
+			height: 15px;
+			background-color: #3399FF;
+			border-radius: 500px;
+			animation-duration: 15s;
+			animation-timing-function: ease;
+			animation-fill-mode: forwards;
+		}
+		li.Python:after{
+            animation-name: Python;
+		}
+		@keyframes Python{
+			to{
+				width: 85%;
+			}
+		}
+		li.C:after{
+            animation-name: C;
+		}
+		@keyframes C{
+			to{
+				width: 85%;
+			}
+		}
+		li.MySQL:after{
+            animation-name: MySQL;
+		}
+		@keyframes MySQL{
+			to{
+				width: 85%;
+			}
+		}
+		li.SEO:after{
+            animation-name: SEO;
+		}
+		@keyframes SEO{
+			to{
+				width: 90%;
+			}
+		}
+		li.SEM:after{
+            animation-name: SEM;
+		}
+		@keyframes SEM{
+			to{
+				width: 80%;
+			}
+		}
+		
+		li.HTML:after{
+            animation-name: HTML;
+		}
+		@keyframes HTML{
+			to{
+				width: 95%;
+			}
+		}
+		li.CSS:after{
+            animation-name: CSS;
+		}
+		@keyframes CSS{
+			to{
+				width: 92%;
+			}
+		}
+		li.JavaScript:after{
+            animation-name: JavaScript;
+		}
+		@keyframes JavaScript{
+			to{
+				width: 85%;
+			}
+		}
+		li.JQuery:after{
+            animation-name: JQuery;
+		}
+		@keyframes JQuery{
+			to{
+				width: 85%;
+			}
+		}
+		li.Bootstrap:after{
+            animation-name: Bootstrap;
+		}
+		@keyframes Bootstrap{
+			to{
+				width: 90%;
+			}
+		}
+			
+		}
+
+		/********************************end media******/
